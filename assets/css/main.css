@@ -1,6 +1,6 @@
 :root {
-  --content-width: 1120px;
-  --container-width: 810px;
+  --content-width: 1120px;  /* parent width */
+  --container-width: 100%; /* content width */  
 
   --light-primary-color: 255, 255, 255;
   --light-secondary-color: #dddddd;
@@ -61,7 +61,7 @@ main#content {
 
 main#content > .container {
   margin: auto;
-  width: 75%;
+  width: 100%;
   max-width: var(--container-width);
 }
 
